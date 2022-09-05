@@ -27,7 +27,7 @@ function verificar(){
     }
     } else {
         if (idade >= 0 && idade < 21){
-            //Garoto
+            //Garota
             img.setAttribute('src', 'img/garota.png')
         } else if (idade >= 21 && idade <=59 ) {
             img.setAttribute('src', 'img/mulher.png')
