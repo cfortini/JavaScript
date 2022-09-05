@@ -12,7 +12,7 @@ function verificar(){
     img.setAttribute('id', 'foto') 
     if ( fsex[0].checked){
     if (fano.value.lenght == 0 || fano.value >= ano ) {
-        alert('[Error] Verifique os dados e tente novamente!')
+        alert('[Error] Verifique os dados e tente novamente!!!')
     } else {
 
         if (idade > 0 && idade < 21){
